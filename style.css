@@ -1,0 +1,67 @@
+body{
+    background-color: blanchedalmond;
+    
+}
+
+.a{
+    display: flex;
+    background-color: rgb(41, 69, 161);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 12px;
+    border-radius: 15px;
+}
+
+.b{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border: 5px dashed rgb(194, 14, 44);
+    border-radius: 20px;
+}
+
+#c{
+    display: flex;
+    background-color: rgba(37, 45, 160, 0.2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border: 5px dotted rgb(194, 14, 44);
+    border-radius: 10px;
+}
+
+#d{
+    display: flex;
+    background-color: rgba(37, 45, 160, 0.2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border: 10px inset rgb(194, 14, 44);
+    border-radius: 20px;
+}
+
+#e{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border: 10px outset rgb(0, 192, 250);
+    border-radius: 20px;
+    box-shadow: 10px 5px 15px;
+}
+
+#f{
+    border: 40px solid;
+    border-image: url(https://media2.giphy.com/media/l4KihuqeuJEi9qLSM/source.gif) 30;
+}
